@@ -16,7 +16,7 @@ context('WilliamHill - Technical Assessment', () => {
 	
 	describe('Scenario 2 - Change language', function() {
 	
-	it(`Assert buttons and change language for every language`, () => {
+	it(`Assert Join button and change language`, () => {
 
 		const languages = [
 			{name: 'german', id: '#de', locale: 'de-de', joinLinkLable: 'Anmelden' },
